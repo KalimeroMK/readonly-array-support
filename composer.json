@@ -1,0 +1,23 @@
+{
+  "name": "kalimero/readonly-array-support",
+  "description": "Laravel-style support for immutable toReadonlyArray pattern in DTOs and Resources.",
+  "type": "library",
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kalimero\\ReadonlyArray\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Kalimero\\ReadonlyArray\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.0"
+  },
+  "license": "MIT",
+  "minimum-stability": "stable"
+}
